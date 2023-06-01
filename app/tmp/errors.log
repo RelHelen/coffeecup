@@ -1,0 +1,528 @@
+[2023-05-22 23:14:13] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-23 00:06:03] Ошибка: SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 22 
+ ====****=====================
+[2023-05-23 00:14:42] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-23 01:14:55] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-23 09:58:47] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-23 11:30:53] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-23 12:40:47] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-23 12:48:07] Ошибка: Unsupported operand types: string / string || Файл: C:\xampp\htdocs\coffeecup\app\views\Main\index.php || Строка: 10 
+ ====****=====================
+[2023-05-23 12:48:08] Ошибка: Unsupported operand types: string / string || Файл: C:\xampp\htdocs\coffeecup\app\views\Main\index.php || Строка: 10 
+ ====****=====================
+[2023-05-23 12:48:10] Ошибка: Unsupported operand types: string / string || Файл: C:\xampp\htdocs\coffeecup\app\views\Main\index.php || Строка: 10 
+ ====****=====================
+[2023-05-23 12:48:13] Ошибка: Unsupported operand types: string / string || Файл: C:\xampp\htdocs\coffeecup\app\views\Main\index.php || Строка: 10 
+ ====****=====================
+[2023-05-23 12:48:39] Ошибка: syntax error, unexpected single-quoted string "/catalog", expecting "," or ";" || Файл: C:\xampp\htdocs\coffeecup\app\views\Main\index.php || Строка: 10 
+ ====****=====================
+[2023-05-23 12:48:40] Ошибка: syntax error, unexpected single-quoted string "/catalog", expecting "," or ";" || Файл: C:\xampp\htdocs\coffeecup\app\views\Main\index.php || Строка: 10 
+ ====****=====================
+[2023-05-23 12:48:42] Ошибка: syntax error, unexpected single-quoted string "/catalog", expecting "," or ";" || Файл: C:\xampp\htdocs\coffeecup\app\views\Main\index.php || Строка: 10 
+ ====****=====================
+[2023-05-23 13:45:48] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 14:53:56] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 15:54:29] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 16:54:33] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 17:56:09] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 19:00:34] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 20:01:30] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 21:53:17] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 22:54:14] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-24 23:54:42] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 08:04:47] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 09:08:21] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 10:19:16] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 10:56:58] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-05-25 10:57:05] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-05-25 10:57:44] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-05-25 10:57:46] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-05-25 11:12:06] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:12:37] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:12:41] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:12:46] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:12:57] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:14:17] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:14:21] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:14:51] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:15:03] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:15:06] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:15:09] Ошибка: Контроллер app\controllers\ScriptController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-05-25 11:29:26] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 12:21:46] Ошибка: Array to string conversion || Файл: C:\xampp\htdocs\coffeecup\app\views\layouts\catalog.php || Строка: 63 
+ ====****=====================
+[2023-05-25 12:31:06] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 12:31:07] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 23 
+ ====****=====================
+[2023-05-25 12:31:09] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:31:11] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:31:14] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:31:16] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:31:29] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:31:53] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:32:22] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:32:25] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:32:28] Ошибка: Undefined array key "option" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-05-25 12:33:28] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 12:34:24] Ошибка: Call to a member function getPointers() on string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 30 
+ ====****=====================
+[2023-05-25 12:34:26] Ошибка: Call to a member function getPointers() on string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 30 
+ ====****=====================
+[2023-05-25 12:34:28] Ошибка: Call to a member function getPointers() on string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 30 
+ ====****=====================
+[2023-05-25 12:42:04] Ошибка: Call to a member function getPointers() on string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 34 
+ ====****=====================
+[2023-05-25 12:45:50] Ошибка: Unclosed '{' on line 9 || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 40 
+ ====****=====================
+[2023-05-25 12:46:07] Ошибка: Undefined variable $model || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 29 
+ ====****=====================
+[2023-05-25 12:46:34] Ошибка: Call to a member function getPointers() on string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 29 
+ ====****=====================
+[2023-05-25 12:47:51] Ошибка: Unmatched '}' || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 41 
+ ====****=====================
+[2023-05-25 13:56:46] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 13:57:24] Ошибка: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, array given || Файл: C:\xampp\htdocs\coffeecup\app\models\Catalog.php || Строка: 22 
+ ====****=====================
+[2023-05-25 14:07:59] Ошибка: Undefined array key "prise" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 56 
+ ====****=====================
+[2023-05-25 14:08:28] Ошибка: Undefined array key "plase" || Файл: C:\xampp\htdocs\coffeecup\app\controllers\CatalogController.php || Строка: 56 
+ ====****=====================
+[2023-05-25 15:48:18] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 22:08:40] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 22:10:11] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-05-25 22:17:43] Ошибка: Array to string conversion || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 5 
+ ====****=====================
+[2023-05-25 22:43:52] Ошибка: Undefined array key "point" || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 5 
+ ====****=====================
+[2023-05-25 22:44:51] Ошибка: Undefined array key "point" || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 5 
+ ====****=====================
+[2023-05-25 22:45:00] Ошибка: Undefined array key "point" || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 5 
+ ====****=====================
+[2023-05-25 22:46:29] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-25 22:47:25] Ошибка: Unsupported operand types: string + string || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 5 
+ ====****=====================
+[2023-05-25 23:01:42] Ошибка: Undefined variable $json || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 1 
+ ====****=====================
+[2023-05-25 23:02:15] Ошибка: Undefined variable $json || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 1 
+ ====****=====================
+[2023-05-25 23:02:26] Ошибка: Undefined variable $json || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 1 
+ ====****=====================
+[2023-05-25 23:04:56] Ошибка: Undefined variable $json || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 1 
+ ====****=====================
+[2023-05-25 23:06:34] Ошибка: Undefined variable $json || Файл: C:\xampp\htdocs\coffeecup\app\views\Catalog\map.php || Строка: 1 
+ ====****=====================
+[2023-05-26 09:05:43] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-26 10:05:57] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-26 11:09:47] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-26 12:10:31] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-26 13:10:51] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-27 08:21:27] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-05-29 12:40:27] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-06-01 20:28:44] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 37 
+ ====****=====================
+[2023-06-01 20:30:16] Ошибка: Контроллер app\controllers\UserController не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 137 
+ ====****=====================
+[2023-06-01 20:43:59] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 20:44:10] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 20:46:16] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 20:46:18] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 20:47:39] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 21:03:20] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 21:05:57] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 21:07:26] Ошибка: Class name must be a valid object or a string || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 54 
+ ====****=====================
+[2023-06-01 21:21:27] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:27:20] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:27:22] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:30:09] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-06-01 21:30:12] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:30:28] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:30:31] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:30:57] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:32:13] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:33:15] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:33:27] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:34:38] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:35:02] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:35:28] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:35:30] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:37:21] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:38:30] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:39:01] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:39:47] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:39:50] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:44:02] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:45:34] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:46:01] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:46:42] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:46:48] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:58:33] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 21:58:37] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:18] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:19] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:19] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:20] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:20] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:20] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:20] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:21] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:01:21] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:02:20] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:03:01] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:15:12] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:15:45] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:16:00] Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_reg' in 'field list' || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 79 
+ ====****=====================
+[2023-06-01 22:16:00] Ошибка: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php:106
+Stack trace:
+#0 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(106): http_response_code('42S22')
+#1 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(91): fw\ErrorHandler->displayError('\xD0\x98\xD1\x81\xD0\xBA\xD0\xBB\xD1\x8E\xD1\x87\xD0\xB5\xD0...', 'SQLSTATE[42S22]...', 'C:\\xampp\\htdocs...', 79, '42S22')
+#2 [internal function]: fw\ErrorHandler->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php || Строка: 106 
+ ====****=====================
+[2023-06-01 22:16:32] Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_reg' in 'field list' || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 79 
+ ====****=====================
+[2023-06-01 22:16:32] Ошибка: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php:106
+Stack trace:
+#0 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(106): http_response_code('42S22')
+#1 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(91): fw\ErrorHandler->displayError('\xD0\x98\xD1\x81\xD0\xBA\xD0\xBB\xD1\x8E\xD1\x87\xD0\xB5\xD0...', 'SQLSTATE[42S22]...', 'C:\\xampp\\htdocs...', 79, '42S22')
+#2 [internal function]: fw\ErrorHandler->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php || Строка: 106 
+ ====****=====================
+[2023-06-01 22:17:07] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:17:09] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:29:45] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:30:03] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:38:01] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-06-01 22:38:06] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:38:15] Ошибка: Fail to load language file 'C:\xampp\htdocs\coffeecup/publicvalidator/lang/ru.php' || Файл: C:\xampp\htdocs\coffeecup\vendor\vlucas\valitron\src\Valitron\Validator.php || Строка: 118 
+ ====****=====================
+[2023-06-01 22:38:35] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:39:37] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:39:51] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:10] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:11] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:11] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:11] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:11] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:11] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:12] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:27] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:33] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:40:37] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 22:41:28] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:04:58] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:05:18] Ошибка: Object of class app\models\User could not be converted to string || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\base\Model.php || Строка: 89 
+ ====****=====================
+[2023-06-01 23:05:43] Ошибка: Object of class app\models\User could not be converted to string || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\base\Model.php || Строка: 89 
+ ====****=====================
+[2023-06-01 23:05:45] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:06:04] Ошибка: Object of class app\models\User could not be converted to string || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\base\Model.php || Строка: 89 
+ ====****=====================
+[2023-06-01 23:08:21] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:11:22] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:11:22] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:11:23] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:11:23] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:11:23] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:18:27] Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_reg' in 'field list' || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 79 
+ ====****=====================
+[2023-06-01 23:18:27] Ошибка: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php:106
+Stack trace:
+#0 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(106): http_response_code('42S22')
+#1 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(91): fw\ErrorHandler->displayError('\xD0\x98\xD1\x81\xD0\xBA\xD0\xBB\xD1\x8E\xD1\x87\xD0\xB5\xD0...', 'SQLSTATE[42S22]...', 'C:\\xampp\\htdocs...', 79, '42S22')
+#2 [internal function]: fw\ErrorHandler->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php || Строка: 106 
+ ====****=====================
+[2023-06-01 23:18:29] Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_reg' in 'field list' || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 79 
+ ====****=====================
+[2023-06-01 23:18:29] Ошибка: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php:106
+Stack trace:
+#0 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(106): http_response_code('42S22')
+#1 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(91): fw\ErrorHandler->displayError('\xD0\x98\xD1\x81\xD0\xBA\xD0\xBB\xD1\x8E\xD1\x87\xD0\xB5\xD0...', 'SQLSTATE[42S22]...', 'C:\\xampp\\htdocs...', 79, '42S22')
+#2 [internal function]: fw\ErrorHandler->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php || Строка: 106 
+ ====****=====================
+[2023-06-01 23:19:20] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:20:22] Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_reg' in 'field list' || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 79 
+ ====****=====================
+[2023-06-01 23:20:22] Ошибка: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php:106
+Stack trace:
+#0 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(106): http_response_code('42S22')
+#1 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(91): fw\ErrorHandler->displayError('\xD0\x98\xD1\x81\xD0\xBA\xD0\xBB\xD1\x8E\xD1\x87\xD0\xB5\xD0...', 'SQLSTATE[42S22]...', 'C:\\xampp\\htdocs...', 79, '42S22')
+#2 [internal function]: fw\ErrorHandler->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php || Строка: 106 
+ ====****=====================
+[2023-06-01 23:20:24] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:20:45] Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_reg' in 'field list' || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 79 
+ ====****=====================
+[2023-06-01 23:20:45] Ошибка: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php:106
+Stack trace:
+#0 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(106): http_response_code('42S22')
+#1 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(91): fw\ErrorHandler->displayError('\xD0\x98\xD1\x81\xD0\xBA\xD0\xBB\xD1\x8E\xD1\x87\xD0\xB5\xD0...', 'SQLSTATE[42S22]...', 'C:\\xampp\\htdocs...', 79, '42S22')
+#2 [internal function]: fw\ErrorHandler->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php || Строка: 106 
+ ====****=====================
+[2023-06-01 23:21:45] Ошибка: Undefined array key "users_data_reg" || Файл: C:\xampp\htdocs\coffeecup\app\models\User.php || Строка: 123 
+ ====****=====================
+[2023-06-01 23:23:08] Ошибка: Array to string conversion || Файл: C:\xampp\htdocs\coffeecup\app\models\User.php || Строка: 126 
+ ====****=====================
+[2023-06-01 23:25:11] Ошибка: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'data_reg' in 'field list' || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Db.php || Строка: 79 
+ ====****=====================
+[2023-06-01 23:25:11] Ошибка: Uncaught TypeError: http_response_code(): Argument #1 ($response_code) must be of type int, string given in C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php:106
+Stack trace:
+#0 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(106): http_response_code('42S22')
+#1 C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php(91): fw\ErrorHandler->displayError('\xD0\x98\xD1\x81\xD0\xBA\xD0\xBB\xD1\x8E\xD1\x87\xD0\xB5\xD0...', 'SQLSTATE[42S22]...', 'C:\\xampp\\htdocs...', 79, '42S22')
+#2 [internal function]: fw\ErrorHandler->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\ErrorHandler.php || Строка: 106 
+ ====****=====================
+[2023-06-01 23:26:28] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:27:49] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:28:03] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:28:09] Ошибка: Undefined array key "MAIL" || Файл: C:\xampp\htdocs\coffeecup\app\models\User.php || Строка: 72 
+ ====****=====================
+[2023-06-01 23:29:07] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:31:34] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:33:53] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:34:13] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:34:24] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:39:11] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-06-01 23:39:25] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:39:59] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:41:22] Ошибка: syntax error, unexpected token "," || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\base\Model.php || Строка: 100 
+ ====****=====================
+[2023-06-01 23:42:42] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:44:01] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:46:01] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-01 23:58:08] Ошибка: Call to undefined function fw\base\prepare() || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\base\Model.php || Строка: 103 
+ ====****=====================
+[2023-06-02 00:01:45] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:01:47] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:09:48] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:09:49] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:09:49] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:09:49] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:12:40] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:18:15] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:18:22] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:19:08] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:19:46] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:23:47] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:23:49] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:23:50] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:24:37] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:24:53] Ошибка: Undefined array key "ID" || Файл: C:\xampp\htdocs\coffeecup\app\models\User.php || Строка: 225 
+ ====****=====================
+[2023-06-02 00:27:52] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 19 
+ ====****=====================
+[2023-06-02 00:30:05] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 21 
+ ====****=====================
+[2023-06-02 00:35:47] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:36:13] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:36:15] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:38:23] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:38:28] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:38:31] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:38:32] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:38:34] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:38:45] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:38:57] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:39:01] Ошибка: Метод app\controllers\UserController::indexAction не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 131 
+ ====****=====================
+[2023-06-02 00:39:07] Ошибка: Метод app\controllers\UserController::indexAction не найден || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 131 
+ ====****=====================
+[2023-06-02 00:39:34] Ошибка: foreach() argument must be of type array|object, bool given || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 38 
+ ====****=====================
+[2023-06-02 00:39:35] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:39:52] Ошибка: Call to undefined function app\controllers\destSession() || Файл: C:\xampp\htdocs\coffeecup\app\controllers\AppController.php || Строка: 24 
+ ====****=====================
+[2023-06-02 00:40:15] Ошибка: Undefined array key "login" || Файл: C:\xampp\htdocs\coffeecup\app\views\inc\menu.php || Строка: 22 
+ ====****=====================
+[2023-06-02 00:40:35] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:45:38] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================
+[2023-06-02 00:49:48] Ошибка: Страница не найдена || Файл: C:\xampp\htdocs\coffeecup\vendor\fw\core\Router.php || Строка: 144 
+ ====****=====================

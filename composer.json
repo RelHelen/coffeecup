@@ -1,0 +1,14 @@
+{
+    "name": "netcloud/fw",
+    "require": {
+        "vlucas/valitron": "^1.4",
+        "gabordemooij/redbean": "dev-master"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "fw\\": "vendor/fw/core",
+            "app\\": "app"
+        }
+    }
+}
