@@ -81,7 +81,7 @@ function mapView() {
             map.controls.remove('zoomControl'); // удаляем контрол зуммирования
             map.controls.remove('rulerControl'); // удаляем контрол правил
             // map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
-            console.log('dspsd. ');
+            // console.log('dspsd. ');
 
         }
         //добавляем места на сайте в разделе mapPlase
@@ -90,7 +90,7 @@ function mapView() {
 
                 let plase = `
                                 
-                    <div class="balloon">
+                    <div class="balloon" id="${item['id']}">
                         <div class="balloon__foto">
                             <img src="./img/images/${item['foto']}">
                         </div>              
@@ -111,13 +111,21 @@ function mapView() {
                     [...balloons].forEach(balloon => {
 
                         if (balloon.className == 'balloon select') {
-                            console.log(balloon.className);
+                            //console.log(balloon.className);
                             balloon.classList.remove('select');
                             resultPlase.innerHTML = '';
                         }
                         if (event.target == balloon) {
                             event.target.classList.add('select');
                             resultPlase.innerHTML = balloon.querySelector('.balloon__address').textContent;
+                            let adres = [];
+                            adres.push({
+                                'id': balloon.id,
+                                'adres': resultPlase.textContent
+
+                            });
+                            // console.log(adres);
+                            localStorage.setItem('dataAdresKey', JSON.stringify(adres));
                         }
                     })
 

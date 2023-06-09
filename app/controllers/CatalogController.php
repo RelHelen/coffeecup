@@ -26,7 +26,7 @@ class CatalogController extends AppController {
          $cache->set('pointers',$pointersMap,3600); 
         }
           
-         }
+}
         //  foreach ($dataPointers as $set) {
         //     if($set['option']=='sitename'){$this->namesite=$set['value'];}
         //  }
@@ -65,11 +65,11 @@ public function mapAction(){
     $json = json_encode($pointers); 
     $this->setData(compact('json'));    
    if ($this->isAjax()) { 
-       // $this->layout='layoutajax'; 
-       // $pointers= $dataPointers;       
+              
         $this->setData(compact('json')); 
        }
 }
+ 
 
  
 }

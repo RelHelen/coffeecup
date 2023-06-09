@@ -140,5 +140,18 @@ class View {
            throw new \Exception(" Файл <b>$file<b> не найден  ", 404);
        }
    }
+   //подключение отдельных частей страницы
+   public  function getPartInc($file,$data=[])
+   {
+       $file = APP . "/views/inc/{$file}.php";
+       $this->data=$data;
+       // echo "<p>вставляемый файл : </p>";
+       // debug($file);
+       if (is_file($file)) {
+           require $file; //подключение 
+       } else {         
+           throw new \Exception(" Файл <b>$file<b> не найден  ", 404);
+       }
+   }
 
 }

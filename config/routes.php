@@ -4,7 +4,8 @@ use fw\Router;
 
 Router::add('^services/(?P<alias>[a-z0-9-_]+)/?$', ['controller' => 'services', 'action' => 'index']);
 Router::add('^services/(?P<alias>[a-z0-9-_]+)/(?P<dev>[a-z0-9-_]+)?$', ['controller' => 'services', 'action' => 'single']);
-
+Router::add('^product/(?P<alias>[a-z0-9-]+)/?$', ['controller'=>'Product', 'action' => 'view']);
+Router::add('^category/(?P<alias>[a-z0-9-]+)/?$', ['controller'=>'Category', 'action' => 'view']);
 /**
  * при обращении к несуществующему контролеру и методу  (pages) переходим на main/index
  */
@@ -18,8 +19,9 @@ Router::add('^page$', ['controller' => 'Page', 'action' => 'view']);
 /**
  * правило для админки
  */
-Router::add('^ncadmin$', ['controller' => 'Main', 'action' => 'index', 'prefix' => 'ncadmin']);
-Router::add('^ncadmin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix' => 'ncadmin']);
+// default routes
+Router::add('^admin$', ['controller'=>'Main', 'action'=>'index', 'prefix'=>'admin']);
+Router::add('^admin/?(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$', ['prefix'=>'admin']);
 
 /**
  * правило для пустой строки

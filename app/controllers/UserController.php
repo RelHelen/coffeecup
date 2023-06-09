@@ -115,32 +115,38 @@ class UserController extends AppController
 
     //просмотр заказов для пользователя
     public function BookingAction(){  
-        if($_SESSION['user']['role']) {
-        debug($_SESSION['user']);
-        redirect(PATH . '/');  //сделать переход на страницу   
+        // if($_SESSION['user']['role']) {
+        // debug($_SESSION['user']);
+        // redirect(PATH . '/');  //сделать переход на страницу   
        
-        } 
+        // } 
            
-        $model = new Customers;
-        $modelBook = new Booking;
+         
+        
         $user = $_SESSION['user'];
-        $detals = array();
-        // debug($user);
-           
-        $customer = $model->getCustomer($user['ID']);
-        // debug($customer);
-        $contracts = $modelBook->getSerUser($user['ID']);
-        //debug($contracts[0]['ID_O']);
-        //debug($contracts);
-        foreach ($contracts as $kay => $value) {
-            //debug($kay);
-            array_push($detals,$modelBook->getDetal($contracts[$kay]['ID_O']));
-           
-        }
-        //debug($detals);       
+         // debug( $user);die;   
+         $orders = \R::getAll("SELECT `order`.`id`, `order`.`id_user`, `order`.`status`, `order`.`date`, `order`.`date_read`, `order`.`date_update`,`order`.`pay`, `order`.`comment`,`users`.`fio`,`status`.`content` as `st_content`,`mappoint`.`descriptions`, ROUND(SUM(`order_product`.`price`), 2) AS `sum` FROM `order`
+         JOIN `users` ON `order`.`id_user` = `users`.`id`
+         JOIN `mappoint` ON `order`.`id_adres` = `mappoint`.`id`
+         JOIN `status` ON `order`.`status` = `status`.`id`
+         JOIN `order_product` ON `order`.`id` = `order_product`.`id_order`
+         WHERE  `order`.`id_user` = ?
+         GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id` ",[$user['id']]); 
+
+       // $orders = \R::findAll('order', "id_user = ?", [$user['id']]);
+
+
+
+
+
+        foreach( $orders as  $order){
+        $order_products = \R::findAll('order_product', "id_order = ?", [$order['id']]);}
+         // debug( $orders);
+          //die;
+         
          
         $this->setTitle('Ваши заказы');
-        $this->setData(compact('contracts', 'detals', 'customer'));
+        $this->setData(compact('orders','order_products' ));
     }
     //просмотр заказов по 
     public function PersonalAction()
@@ -149,7 +155,7 @@ class UserController extends AppController
         $modelBook = new Booking;
         $user = $_SESSION['user'];
         //debug($user);
-        $customer = $model->getCustomer($user['ID']);
+        $customer = $model->getCustomer($user['id']);
 
 
         //debug($customer);
@@ -158,4 +164,8 @@ class UserController extends AppController
         $this->setTitle('Ваши заказы');
         $this->setData(compact('customer', 'user'));
     }
+ // возвращает true для пользователя .проверка авторизован ли пользователь
+ public static function checkAuth(){
+    return isset($_SESSION['user']);
+}
 }

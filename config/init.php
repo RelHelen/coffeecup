@@ -32,7 +32,7 @@ $app_path = str_replace('/public/', '', $app_path);
  
 define("HPATH", $app_path); 
 define('PATH', $app_path); 
-define("ADMIN", HPATH . '/ncadmin');
+define("ADMIN", HPATH . '/admin');
 
 //функция атозагрузки страниц
 require_once ROOT . '/vendor/autoload.php';

@@ -83,21 +83,25 @@ abstract class Model
         $errors .= '</ul>';
         $_SESSION['error'] = $errors;
     }
-
+    public function save($table, $valid = true){
+        if($valid){
+            $tbl = \R::dispense($table);
+        }else{
+            $tbl = \R::xdispense($table);
+        }
+        foreach($this->attributes as $name => $value){
+            $tbl->$name = $value;
+        }
+        return \R::store($tbl);
+    }
     //сохрание данных в таблицу и возврат id сохраненой записи
     //не работает
-    public function save($table){
+    public function saveMy($table){
         $sql = "INSERT into `$table`  set ";
         foreach (array_keys($this->attributes) as $name) {
             $columns[] = "`$name`=?";
             
-        }
-        foreach ($this->attributes as $key => $value){
-            // echo ($key), "==";
-            // echo ($value), "<br>";
-            // $columns[] = "`$value`:?"; 
-
-        }
+        }     
              
             
         //implode — Объединяет элементы массива в строку
@@ -296,6 +300,14 @@ return  $id_u;
         $members = $query->rowCount();
         return  $members;
     }
+    public function update($table, $id){
+        $bean = \R::load($table, $id);
+        foreach($this->attributes as $name => $value){
+            $bean->$name = $value;
+        }
+        return \R::store($bean);
+    }
+
 
     /**
      * query() — возвращает mysqli resource. Может использоваться традиционно, с fetch() и т.д.

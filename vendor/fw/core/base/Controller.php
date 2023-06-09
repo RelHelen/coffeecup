@@ -63,6 +63,9 @@ abstract class Controller{
     public function setData($vars){
         $this->vars = $vars;
     }
+    public function set($vars){
+      $this->vars = $vars;
+  }
 
     public function setMeta($title = '', $desc = '', $keywords = ''){
         $this->meta['title'] = $title;

@@ -2,18 +2,18 @@
     <h2>Заказы клиента</h2>
     <p></p>
     <p></p>
-    <h5><?= $customer['FIO'] ?>, ваши заказы:</h5>
+    <h5>Ваши заказы:</h5>
     <p></p>
     <p></p>
-    <?php if (!empty($contracts)) :
-        foreach ($contracts as $contract) :
+    <?php if (!empty($orders)) :
+        foreach ($orders as $order) :
             //debug($contract);
          ?>
             <section class="card-">
                 <div class="card-header">
                     <h3>Заказ №
 
-                        <?php echo $contract['num']; ?>
+                        <?php echo $order['id']; ?>
 
                     </h3>
 
@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <?php if (!empty($contract)) :  ?>
+                            <?php if (!empty($order)) :  ?>
                                 <div class="box">
                                     <div class="box-body">
                                         <div class="table-responsive">
@@ -33,31 +33,31 @@
 
                                                     <tr>
                                                         <th>Сумма заказа</th>
-                                                        <td><?= $contract['COST']; ?> </td>
+                                                        <td><?= $order['sum']; ?> </td>
                                                     </tr>
                                                     <tr>
-                                                        <th>Дата визита </th>
-                                                        <td><?= $contract['DATA_VISIT']; ?></td>
+                                                        <th>Дата заказа</th>
+                                                        <td><?= $order['date']; ?></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Время приготовления</th>
+                                                        <td><?= $order['date_read']; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <th>Статус</th>
-                                                        <td><?php
-                                                            if ($contract['status'] == 1) {
-                                                                echo 'Новый';
-                                                            };
-                                                            if ($contract['status'] == 2) {
-                                                                echo 'Обработан';
-                                                            };
-                                                            if ($contract['status'] == 3) {
-                                                                echo 'Отменен';
-                                                            };
-                                                            if ($contract['status'] == 4) {
-                                                                echo 'Исполнен';
-                                                            }; ?></td>
+                                                        <td><?=$order['st_content']?></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Оплата</th>
+                                                        <td><?=$order['pay']?'Оплачен':'Не оплачен' ?></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Место забирать заказ</th>
+                                                        <td><?=$order['descriptions'] ?></td>
                                                     </tr>
                                                     <tr>
                                                         <th>Комментарий</th>
-                                                        <td><?= $contract['COMMENT'] ?></td>
+                                                        <td><?= $order['comment'] ?></td>
                                                     </tr>
                                                 </tbody>
 
@@ -78,32 +78,27 @@
                                                     <tr>
                                                         <th>№</th>
 
-                                                        <th>Услуга</th>
+                                                        <th>Наименование</th>
                                                         <th>Стоимость</th>
-
-                                                        <th>Мастер </th>
+                                                        <th>Количество </th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <?php
-                                                    if (!empty($detals)) :
+                                                    if (!empty($order_products)) :
                                                         $i = 0;
-                                                        foreach ($detals  as $detal ) :
-                                                            //debug($detal);
-                                                            foreach ($detal  as $list ) :
-                                                                if( $contract['ID_O'] == $list['ID_O']):
-                                                            $i++ ?>
+                                                        foreach ($order_products  as $list ) : $i++ ?>
                                                             <tr>
                                                                 <td><?= $i ?></td>
-                                                                <td><?= $list['USLUGA']; ?></td>
-                                                                <td><?= $list['PRICE']; ?></td>
+                                                                <td><?= $list['title']; ?></td>
+                                                                <td><?= $list['price']; ?></td>
                                                                 <td>
-
+                                                                <?= $list['qty']; ?>
                                                                 </td>
 
                                                             </tr>
-                                                            <?php endif; ?>
-                                                            <?php endforeach; ?>
+                                                            
+                                                            
                                                         <?php endforeach; ?>
                                                     <?php endif; ?>
                                                 </tbody>

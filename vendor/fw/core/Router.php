@@ -1,67 +1,24 @@
 <?php
 
-/**
- * Router, подключает controllers
- */
-/**Зададим пространство имен namespace
- * это путь к классу начиная от корня нашего приложения
- * 
- */
-
 namespace fw;
 
-class Router
-{
-    /**
-     * массив:  таблица всех маршрутов    
-     *  @var array
-     */
-    protected static $routes = [];
+class Router{
 
-    /**массив: текущий маршрут
-     * один текущий маршрут по текущему url адресу
-     * он определяет какой конторллер будет загружен,
-     *               какой вид контроллера будет загружен     
-     *  @var array
-     *  $route['controller']
-     *  $route['action']-он же хранит метод, а также подключаемый файл вида(views)
-     *  $route['alias'] - параметры к методу(page/view/about)
-     */
+    protected static $routes = [];
     protected static $route = [];
 
-    /** метод:добавляем маршруты в таблицу маршрутов
-     * в маршруте указывается контроллер и метод     
-     * @param string $regex - регулярное выражение маршрута, строка url
-     * @param array $route - маршрут :[controller] => Posts, [action] => index
-     */
-    public static function add($regexp, $route = [])
-    {
+    public static function add($regexp, $route = []){
         self::$routes[$regexp] = $route;
     }
 
-    /**метод:возвращаем маршруты которые есть
-     * @return array
-     */
-    public static function getRoutes()
-    {
+    public static function getRoutes(){
         return self::$routes;
     }
 
-    /**метод: возвращает текущий маршрут
-     * @return array
-     * */
-    public static function getRoute()
-    {
+    public static function getRoute(){
         return self::$route;
     }
 
-    /**метод: ищет URL в таблице маршрутов
-     * поиск url на совпадение из массива маршрутов
-     * @param string $url - входящий url
-     * @return boolean
-     * * возвращет true - если нашел маршрут 
-     * false - если не нашел
-     * */
     public static function matchRoute($url)
     {
         // debug($url, true);
@@ -86,7 +43,7 @@ class Router
                     //если префикса не существует для пользовательской части
                     $route['prefix'] = '';
                 } else {
-                    $route['prefix'] = $route['prefix'] . '\\'; //добавили слеш в конец
+                    $route['prefix'] = $route['prefix'].'\\'; //добавили слеш в конец
                 }
 
                 $route['controller'] = self::upperCamelCase($route['controller']);
@@ -104,16 +61,16 @@ class Router
      * return  void - ничего не возвращате
      * */
     public static function dispatch($url)
-    {
+    { //var_dump($url);
         $url = self::removeQueryString($url);
-       // var_dump($url);
+       
         if (self::matchRoute($url)) {
             //в  $controller помещаем реззульат контроллера
             //$controller=self::$route['controller'];
 
-            $control = self::$route['prefix'] . self::$route['controller'];
+            $control = self::$route['prefix'].self::$route['controller'];
 
-            $controller = 'app\controllers\\' . $control . 'Controller';
+            $controller = 'app\controllers\\'.self::$route['prefix'].self::$route['controller'].'Controller';
 
 
             if (class_exists($controller)) {
@@ -180,7 +137,7 @@ class Router
      * */
     protected static function removeQueryString($url)
     {
-        //var_dump($url); //post-new/test/&f=1&a=3
+         //var_dump($url); //post-new/test/&f=1&a=3
         if ($url) {
             $pararams = explode('&', $url, 2); //создали массив из двух элементов, разделенных $
             //var_dump($pararams);

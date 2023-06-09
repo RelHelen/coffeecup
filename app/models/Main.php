@@ -15,5 +15,6 @@ class Main extends Model
     $data = $this->findAll();
     return $data;
   }  
+ 
   
 }

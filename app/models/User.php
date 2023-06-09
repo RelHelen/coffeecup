@@ -141,39 +141,14 @@ class User extends Model
         //     return $res;
         // }
     }
-    /**
-     * Вставка строки в таблицу customer
-     * @return
-     */
-    public function insertSingleRowCust($table, $id_u)
-    {
-
-        $sql = "INSERT INTO $table (ID_U,FIO)
-            VALUES (
-                 :id_u,
-                 :fio 
-            )";
-
-        $params = [
-            'id_u' => $id_u,
-            'fio' => $this->attributes['fio']
-        ];
-
-        // debug($this->attributes['users_data_reg']);
-        // foreach ($params as $value) {
-        //     echo gettype($value), "\n";
-        // }
-        // die;
-        $res = $this->pdo->execute($sql, $params);
-
-        $this->pdo->lastInsertId(); //номер последнего индекса
-        return $res;
-    }
+     
 
     /**
      * логин
      * @param bool $isAdmin     
      * проверка  логина с бд при авторизации
+     * isLogin($isAdmin = false)
+     * ,$isMenedger = false
      */
     public  function isLogin($isAdmin = false)
     {
@@ -200,7 +175,17 @@ class User extends Model
                     'role' => 'admin'
                 ];
                 $user = $this->getAssocArr('SELECT * FROM users WHERE login=:login AND role=:role LIMIT 1', $params);
-            } else {
+            // } elseif($isMenedger){
+            //     //авторизация админа для админки
+            //     if (isset($_SESSION['user'])) {
+            //         unset($_SESSION['user']);
+            //     };
+            //     $params = [
+            //         'login' => $login,
+            //         'role' => 'menedger'
+            //     ];
+            //     $user = $this->getAssocArr('SELECT * FROM users WHERE login=:login AND role=:role LIMIT 1', $params);
+            }else {
                 //авторизация обычного пользователя
                 //из таблицы users получаем запись по  логину 
                 $user =  $this->getAssocArr('SELECT * FROM users WHERE login=:login  LIMIT 1', $params);
@@ -238,10 +223,37 @@ class User extends Model
         //и он является  администратором
         return (isset($_SESSION['user']) && $_SESSION['user']['role'] == 'admin');
     }
-
-    //проверка что пользователь авторизован как user
-    public static function isUser()
+ //проверка что пользователь авторизован как менеджер
+ public static function isMenedger()
+ {
+     //если существует в сессии пользователь
+     //и он является  менеджер
+     return (isset($_SESSION['user']) && $_SESSION['user']['role'] == 'menedger');
+ }
+//проверка что пользователь авторизован как user
+ public static function isUser()
     {
         return (isset($_SESSION['user']) && $_SESSION['user']['role'] == 'user');
     }
+
+     /**
+     * получение по id   клиента  
+     */
+    public  function getUserRow($id)
+    {
+        $customersParam = [
+            'id' => $id
+        ];
+        $customers = $this->getAssocArr("SELECT * FROM users WHERE id=:id LIMIT 1", $customersParam);
+        if ($customers) {
+            return $customers;
+        }
+        return false;
+    }
+
+    public static function checkAuth(){
+        return isset($_SESSION['user']);
+    }   
+
+
 }

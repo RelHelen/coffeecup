@@ -4,8 +4,11 @@
             <div class="container">
                 <div class="row"> 
                     <div class="w_50"></div>                  
-                    <div class="top-header-content">
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> Часы работы: 9:00 - 24:00 <span class="mx-2"></span> | <span class="mx-2"></span> <i class="fa fa-phone" aria-hidden="true"></i> Телефон: +7 (863) 123-45-76</p>
+                    <div class="top-header-content d-flex align-items-center">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i> <span class="mx-2">Часы работы: 9:00 - 24:00</span> 
+                                <span class="mx-2"></span> | 
+                                <span class="mx-2"></span> 
+                                <i class="fa fa-phone" aria-hidden="true"></i> <span class="mx-2">Телефон: +7 (863) 123-45-76</span>
                     </div>                   
                     <div class="top-header-nav">
                         <ul class="top-header-menu">

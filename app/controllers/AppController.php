@@ -36,14 +36,14 @@ class AppController extends Controller{
     if(!$dataSetings){
     $cache->set('setings',$setings,3600);
     }
-    foreach ($dataSetings as $set) {
-       if($set['option']=='sitename'){$this->namesite=$set['value'];}
-    }
+    // foreach($dataSetings as $set) {
+    //    if($set['option']=='sitename'){$this->namesite=$set['value'];}
+    // }
      //"Кафейня Чашка кофе"
-    $this->setMeta($this->namesite,"Кафейня Чашка кофе","кофе, пить кофе");
-    $this->setTitle($this->namesite); 
-    // $this->setMeta("Кафейня Чашка кофе","Кафейня Чашка кофе","кофе, пить кофе");
-    // $this->setTitle("Кафейня Чашка кофе");   
+    // $this->setMeta($this->namesite,"Кафейня Чашка кофе","кофе, пить кофе");
+    // $this->setTitle($this->namesite); 
+    $this->setMeta("Кафейня Чашка кофе","Кафейня Чашка кофе","кофе, пить кофе");
+    $this->setTitle("Кафейня Чашка кофе");   
     $this->layout = 'default';
     
 }
@@ -76,9 +76,9 @@ class AppController extends Controller{
    * 
    * вернет id клиента из сессии
    */
-  public static function idCustomer()
+  public static function idUser()
   {
-    return $idCustomer = isset($_SESSION['customer']['id']) ? hsc($_SESSION['customer']['id']) : null;
+    return $idUser = isset($_SESSION['user']['id']) ? hsc($_SESSION['user']['id']) : null;
   }
 
 

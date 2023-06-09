@@ -2,7 +2,7 @@
 
 namespace fw;
 
-use fw\core\ErrorHandler as CoreErrorHandler;
+use fw\ErrorHandler as CoreErrorHandler;
 use fw\Registry;
 use fw\ErrorHandler;
 use fw\Router;

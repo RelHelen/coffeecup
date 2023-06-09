@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
+    <link rel="shortcut icon" href="<?= PATH ?>/img/star.png" type="image/png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- Meta  -->
    <?php echo $this->getMeta(); ?>
@@ -37,6 +40,7 @@
     <!-- /content view -->
    </main>
     <!-- footer -->
+    <?php  $this->getPart('footer');  ?>
     <script>
         path = '<?= PATH ?>';
     </script>

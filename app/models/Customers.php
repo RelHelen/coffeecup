@@ -28,6 +28,7 @@ class Customers extends Model
        
         return  $contactsAll;
     }
+    
     // клиенты 
     public function getCustomers($start, $perpage)
     {

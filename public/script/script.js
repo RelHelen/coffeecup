@@ -1,8 +1,11 @@
 import createArticle from './modules/createArticle.js';
 import createArticleEats from './modules/creatArticleEats.js';
+import createOrderFinal from './modules/createOrderFinal.js';
 import { creatDrinks, creatEats } from './display.js';
 import { mapView } from './mapView.js';
+
 mapView();
+//localStorage.setItem('dataOrderListKey', JSON.stringify([{ "id": 1686010771541, "title": "МОККО", "size": "450МЛ", "sugar": "2ШТ", "syrup": "", "count": "2" }]));
 //меню tab
 const tabDrinks = document.getElementById("tab-drinks");
 const tabEats = document.getElementById("tab-eats");
@@ -11,7 +14,10 @@ const orderDrinkAdd = document.getElementById("order-drink-add");
 const orderEatAdd = document.getElementById("order-eat-add");
 
 
-
+const allReadyOrderItem1 = document.getElementById("allReadyOrderItem1");
+const btnReadOrderMap = document.getElementById("btn-readOrderMap");
+const sectionMap = document.getElementById("sectionMap");
+const orderResContainer = document.getElementById("orderResContainer");
 const orderResult = document.getElementById("order-result");
 const captionCoffe = ["Эспрессо", "Американо", "Капучино", "Латте", "Маккиато", "Моккачино", "Мокко"];
 const capionOrderCoffe = ["Наименование", "Размер", "Сахар", "Сироп", "Количество кружек "];
@@ -72,6 +78,7 @@ tabDrinks.addEventListener('click', function(event) {
     coffeeName = document.querySelector(".coffee_name");
     coffeeFilling = document.querySelector(".filling");
     btnOpt = document.querySelectorAll(".order_options input");
+    console.log(btnOpt);
     btnSize = document.querySelectorAll(".order_size input");
     btnSugar = document.querySelectorAll(".order_sugar input");
     btnSyrup = document.querySelectorAll(".order_syrup input");
@@ -184,7 +191,7 @@ const setListoderEats = function() {
 
         //создали пункты в заказе
         orderArticleEats = createArticleEats(dataOrderEats);
-        console.log("orderesEats", orderArticleEats);
+        //console.log("orderesEats", orderArticleEats);
         orderResult.prepend(orderArticleEats);
 
 
@@ -508,6 +515,7 @@ const removeCountCup = (btn) => {
 
 //сорт
 const btnOptDefined = (btnOpt) => {
+    console.log(btnOpt);
     [...btnOpt].forEach((button) => {
         current_element = null;
         cupSize.style.backgroundColor = "#48b19f";
@@ -862,7 +870,40 @@ function orderDetChangeClick(button) {
 //}
 function onVisibleMenu() {
     menuOrder.classList.add('onVisibleMenu');
+    orderResContainer.classList.add('onVisibleMenu');
+    sectionMap.classList.remove('onVisibleMap');
 }
 
 btnReadOrder.addEventListener('click', onVisibleMenu);
-//   localStorage.setItem('dataOrderKey', JSON.stringify(order));
+
+btnReadOrderMap.addEventListener('click', function() {
+
+    sectionMap.classList.add('onVisibleMap');
+    let dataOrderEats = JSON.parse(localStorage.getItem('dataOrderEatsListKey')) || [];
+
+    let dataOrderList = JSON.parse(localStorage.getItem('dataOrderListKey'));
+    let dataAdres = JSON.parse(localStorage.getItem('dataAdresKey'));
+    console.log(dataOrderEats);
+    let orders = [];
+    orders.push(dataOrderList, dataOrderEats, dataAdres);
+    allReadyOrderItem1.prepend(createOrderFinal(dataOrderEats, dataOrderList, dataAdres));
+
+});
+
+function post(url, data) {
+    return new Promise((succeed, fail) => {
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", url);
+        xhr.addEventListener("load", () => {
+            if (xhr.status >= 200 && xhr.status < 400)
+                succeed(xhr.response);
+            else
+                fail(new Error(`Request failed: ${xhr.statusText}`));
+        });
+        xhr.addEventListener("error", () => fail(new Error("Network error")));
+        xhr.send(data);
+    });
+}
+// post(path + '/cart/add', orders)
+//     .then(response => console.log(response))
+//     .catch(error => console.error(error));

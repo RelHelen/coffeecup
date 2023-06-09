@@ -2,13 +2,13 @@
 
 namespace app\models;
 
-use fw\core\base\Model;
-use fw\core\Db;
+use fw\base\Model;
+use fw\Db;
 
 class User extends Model
 {
     public $table = 'users';
-    public $pk = 'ID';
+    public $pk = 'id';
     //поля ожидаем из формы для регистрации
     public $attributes = [
         'login' => '',
@@ -166,7 +166,7 @@ class User extends Model
 
     /**
      * логин
-     * @param bool $isAdmin     
+     * @param bool $isLogin     
      * проверка  логина с бд при авторизации
      */
     public  function isLogin($isAdmin = false)
@@ -194,7 +194,18 @@ class User extends Model
                     'role' => 'admin'
                 ];
                 $user = $this->getAssocArr('SELECT * FROM users WHERE login=:login AND role=:role LIMIT 1', $params);
-            } else {
+            } elseif($isMenedger){
+                //авторизация админа для админки
+                if (isset($_SESSION['user'])) {
+                    unset($_SESSION['user']);
+                };
+                $params = [
+                    'login' => $login,
+                    'role' => 'menedger'
+                ];
+                $user = $this->getAssocArr('SELECT * FROM users WHERE login=:login AND role=:role LIMIT 1', $params);
+            }
+            else {
                 //авторизация обычного пользователя
                 //из таблицы users получаем запись по  логину 
                 $user =  $this->getAssocArr('SELECT * FROM users WHERE login=:login  LIMIT 1', $params);
@@ -240,7 +251,13 @@ class User extends Model
         //и он является  администратором
         return (isset($_SESSION['user']) && $_SESSION['user']['role'] == 'admin');
     }
-
+    //проверка что пользователь авторизован как менеджер
+    public static function isMenedger()
+    {
+        //если существует в сессии пользователь
+        //и он является  менеджер
+        return (isset($_SESSION['user']) && $_SESSION['user']['role'] == 'menedger');
+    }
     //проверка что пользователь авторизован как user
     public static function isUser()
     {
